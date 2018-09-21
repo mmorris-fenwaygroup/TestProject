@@ -1,0 +1,53 @@
+body { color: #000305; font-size: 87.5%; font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin: 0; padding: 0; text-align: left; }
+h2 { font-size: 1.571em; }
+h3 { font-size: 1.429em; }
+h4 { font-size: 1.286em; }
+h5 { font-size: 1.143em; }
+h6 { font-size: 1em; }
+h2, h3, h4, h5, h6 { font-weight: 400; line-height: 1.1; margin-bottom: 0.8em; }
+
+p { margin-bottom: 1.143em; }
+* p:last-child { margin-bottom: 0; }
+strong, b { font-weight: bold; }
+em, i { font-style: italic; }
+header, section, footer, aside, nav, article, figure { display: block; }
+.body { clear: both; margin: 0 auto; width: 963px; }
+img.right figure.right { float: right; margin: 0 0 2em 2em; }
+img.left, figure.left { float: right; margin: 0 0 2em 2em; }
+#content { background: #fff; margin-bottom: 2em;  padding: 0 20px; width: 963px; min-height:300px; }
+#contentinfo { padding-bottom: 2em; text-align: right; color: #A6A6A6; font-size: 0.563em; line-height: 1.6em; padding: 0 0 15px 0;  margin: 0 auto 2em auto;}
+#banner { margin: 0 auto; padding: 0 0 0 0; }
+#banner nav {font-size: 1.143em;  margin: 0 auto 2em auto; padding: 0; text-align: right;  border-radius: 5px; }
+#banner nav a:link, #banner nav a:visited {color:#fff; padding: 5px 1.5em; text-decoration: none; }
+#banner nav a:hover, #banner nav a:active, #banner nav .active a:link, #banner nav .active a:visited { color: #FF6319; text-shadow: none !important; }
+#MenuTable {display:table; width:963px;}
+#MenuRow {display:table-row; background:Green url('../images/topbarBg.jpg') top left no-repeat; height:35px;}   
+#MenuCellLeft {display:table-cell;}
+#MenuCellRight {display:table-cell; padding-right:175px; font-size:0.625em;}
+.menu{padding: 5px 0 0 0 ;}
+
+/* igoogle summer style */
+table.igoogle-summer {border:solid 1px #84a360;}
+.igoogle-summer th{color:#376f18;border-right-color:#84a360;border-bottom-color:#84a360;background:#b0d781 url(../../image/summer/mt_back.gif) repeat-x;}  
+.igoogle-summer td{color:#000;border-bottom-color:#e7f2da;	border-right-color:#e7f2da;	}
+.igoogle-summer .row-over { background-color:#e7f2da;}
+.igoogle-summer .row-select { color:#fff;background-color:#84a360;}
+.igoogle-summer a { color:#007934; font-weight:bold; text-decoration:none; }
+.igoogle-summer a:hover { color:#FF6319; }
+.igoogle-summer .pager-row{ background-color:#e7f2da;}
+
+/*Modal Popup*/
+.modalBackground {background-color:#000;-ms-filter:alpha(opacity=70);-ms-opacity:0.7;}
+.modalPopup {background-color:#ffffdd;border-width:3px;border-style:solid;border-color:Gray;padding:3px;}
+.hidden{display: none;}
+.heading {padding: .1em 0 .1em 5px;color: #000;background-image: url(../../images/HeaderChrome.jpg);font-family:"Trebuchet MS", Verdana, Arial, Sans-Serif;font-weight:bold;font-size:18px;font-style:italic;}
+.headingBlack {padding: .1em 0 .1em 5px;color: #FFF;background-image: url(../../images/HeaderChromeBlack.jpg);font-family: "Trebuchet MS", Verdana, Arial, Sans-Serif;font-weight:bold;font-size:18px;font-style:italic;}
+.confirm-dialog { BACKGROUND: url(../../images/modal/bg/dialog24.png) no-repeat left top; MARGIN: 0px auto; WIDTH: 412px; PADDING-TOP: 14px; POSITION: relative; }
+.confirm-dialog .inner { PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 11px; BACKGROUND: url(../../images/modal/bg/dialog24.png) no-repeat left bottom; FLOAT: left; MARGIN: 0px 0px -20px 0px; WIDTH: 378px; PADDING-TOP: 0px; }
+.confirm-dialog .base { BORDER-TOP: #ddd 1px solid; /*BACKGROUND: url(img/bg/dialog-base.png) no-repeat left bottom;	*/ PADDING-BOTTOM: 4px; PADDING-TOP: 4px; }
+.confirm-dialog H2 { FONT-WEIGHT: bold; FONT-SIZE: 1.25em; text-align: center; COLOR: Green; }
+.confirm-dialog input { WIDTH: 50px; }
+.close { DISPLAY: block; BACKGROUND: url(../../images/modal/icn/close24.png) no-repeat 0px 0px; LEFT: -5px; WIDTH: 26px; TEXT-INDENT: -1000em; POSITION: absolute; TOP: -7px; HEIGHT: 26px; }
+.modalBackground { background-color: Gray; filter: alpha(opacity=70); opacity: 0.7; }
+.search {background: Silver;padding: 4px 2px 2px 2px;font: 18px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;position: relative;}
+.popupPanel {font-family:"Arial,Helvetica,sans-serif";Font-Size:small;background-color:#f0f0f0 }

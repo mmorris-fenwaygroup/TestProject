@@ -1,0 +1,22 @@
+﻿<asp:GridView runat="server" 
+              SkinId="igoogle-summer"
+              AllowSorting="True" 
+              CssClass="igoogle igoogle-summer">
+        <RowStyle CssClass="data-row" />    
+        <HeaderStyle CssClass="header-row" />    
+        <EditRowStyle CssClass="row-select" />    
+        <AlternatingRowStyle CssClass="alt-data-row" />
+</asp:GridView>
+
+<asp:GridView runat="server" 
+              SkinId="igoogle-summer_paging"
+              AllowSorting="True" 
+              AllowPaging="True"
+              PageSize="10" 
+              CssClass="igoogle igoogle-summer">
+        <RowStyle CssClass="data-row" />    
+        <HeaderStyle CssClass="header-row" />    
+        <EditRowStyle CssClass="row-select" />  
+        <PagerStyle CssClass="pager-row" />      
+        <AlternatingRowStyle CssClass="alt-data-row" />
+</asp:GridView>
